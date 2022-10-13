@@ -1,5 +1,9 @@
+import Chessboard.Chessboard;
+
 public class App {
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Chessboard board1 = new Chessboard();
+        board1.displayBoard();
     }
 }
